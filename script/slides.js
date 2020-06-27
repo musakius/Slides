@@ -49,6 +49,14 @@ function offsetSlides() {
       current.textContent = slideIndex;
     }
 
+    let host = location.href.replace(/\Course_work_2.*/, "");
+    console.log(host.indexOf("https"));
+    /* host = host + "Course_work_2/search.html"; */
+
+    /* if (location.href !== host) {
+    localStorage.removeItem('id_search');
+} */
+
     slidesField.style.transition = "0.5s all";
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage =
