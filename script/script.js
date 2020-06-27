@@ -21,7 +21,9 @@ function openCloseBurger() {
     blockControlSlider.style.display = "none";
     container.style.display = "none";
     menu.style.display = "flex";
-    document.body.style.backgroundImage = "url('../slide/img/menu.png')";
+    document.body.style.backgroundImage =
+      "url('../slide/img/menu.png')" ||
+      "https://musakius.github.io/slide/img/menu.png";
 
     if (!burger.classList.contains("open")) {
       closeBurger.style.display = "none";
@@ -30,7 +32,9 @@ function openCloseBurger() {
       blockControlSlider.style.display = "block";
       container.style.display = "block";
       menu.style.display = "none";
-      document.body.style.backgroundImage = "url('../slide/img/slide_1.png')";
+      document.body.style.backgroundImage =
+        "url('../slide/img/slide_1.png')" ||
+        "https://musakius.github.io/slide/img/slide_1.png";
     }
   }
 }
