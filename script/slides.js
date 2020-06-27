@@ -53,7 +53,7 @@ function offsetSlides() {
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage =
       `url('../slide/img/slide_${+current.textContent}.png')` ||
-      `https://github.com/musakius/Slides/blob/master/img/slide_${+current.textContent}.png`;
+      `url('slide/img/slide_${+current.textContent}.png')`;
   });
 
   prev.addEventListener("click", () => {
@@ -81,7 +81,7 @@ function offsetSlides() {
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage =
       `url('../slide/img/slide_${+current.textContent}.png')` ||
-      `https://github.com/musakius/Slides/blob/master/img/slide_${+current.textContent}.png`;
+      `url('slide/img/slide_${+current.textContent}.png')`;
   });
 
   function deleteNotDigits(str) {
