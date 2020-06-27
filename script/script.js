@@ -81,12 +81,12 @@ function renderImgInMenu() {
         imgLeft.style.display = "block";
         imgLeft.src = location.href.indexOf("https")
           ? `../slide/img/img-hover_${slideIndex}.png`
-          : `'${location.href}/img/img-hover_${slideIndex}.png`;
+          : `'${location.href}/img-hover_${slideIndex}.png`;
       } else {
         imgRight.style.display = "block";
         imgRight.src = location.href.indexOf("https")
           ? `../slide/img/img-hover_${slideIndex}.png`
-          : `'${location.href}/img/img-hover_${slideIndex}.png`;
+          : `'${location.href}/img-hover_${slideIndex}.png`;
       }
       imgLeft.style.top = `${slideIndex * 90}px`;
       imgRight.style.top = `${slideIndex * 90}px`;
