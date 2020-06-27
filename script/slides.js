@@ -49,20 +49,11 @@ function offsetSlides() {
       current.textContent = slideIndex;
     }
 
-    let host = location.href.replace(/\Course_work_2.*/, "");
-    console.log(location.href);
-    console.log("img/slide_${+current.textContent}.png");
-    /* host = host + "Course_work_2/search.html"; */
-
-    /* if (location.href !== host) {
-    localStorage.removeItem('id_search');
-} */
-
     slidesField.style.transition = "0.5s all";
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage = location.href.indexOf("https")
       ? `url('../slide/img/slide_${+current.textContent}.png')`
-      : `url('https://musakius.github.io/Slides/img/slide_${+current.textContent}.png')`;
+      : `url('${location.href}/img/slide_${+current.textContent}.png')`;
   });
 
   prev.addEventListener("click", () => {
@@ -88,9 +79,9 @@ function offsetSlides() {
 
     slidesField.style.transition = "0.5s all";
     indicators.style.width = `${current.textContent * 20}%`;
-    document.body.style.backgroundImage =
-      `url('../slide/img/slide_${+current.textContent}.png')` ||
-      `url('slide/img/slide_${+current.textContent}.png')`;
+    document.body.style.backgroundImage = location.href.indexOf("https")
+      ? `url('../slide/img/slide_${+current.textContent}.png')`
+      : `url('${location.href}/img/slide_${+current.textContent}.png')`;
   });
 
   function deleteNotDigits(str) {

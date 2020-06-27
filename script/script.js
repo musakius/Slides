@@ -21,7 +21,9 @@ function openCloseBurger() {
     blockControlSlider.style.display = "none";
     container.style.display = "none";
     menu.style.display = "flex";
-    document.body.style.backgroundImage = "url('../slide/img/menu.png')";
+    document.body.style.backgroundImage = location.href.indexOf("https")
+      ? `url('../slide/img/menu.png')`
+      : `url('${location.href}/img/menu.png')`;
 
     if (!burger.classList.contains("open")) {
       closeBurger.style.display = "none";
@@ -30,7 +32,9 @@ function openCloseBurger() {
       blockControlSlider.style.display = "block";
       container.style.display = "block";
       menu.style.display = "none";
-      document.body.style.backgroundImage = "url('../slide/img/slide_1.png')";
+      document.body.style.backgroundImage = location.href.indexOf("https")
+        ? `url('../slide/img/slide_1.png')`
+        : `url('${location.href}/img/slide_1.png')`;
     }
   }
 }
@@ -70,16 +74,19 @@ function renderImgInMenu() {
   menuBar.forEach((el, i) => {
     const slideIndex =
       i < menuBar.length / 2 ? i + 1 : i - menuBar.length / 2 + 1;
-    console.log();
     el.addEventListener("mouseover", () => {
       menuBar.forEach((item) => (item.style.color = "#4444445b"));
       el.style.color = "#407939";
       if (i % 2 === 0) {
         imgLeft.style.display = "block";
-        imgLeft.src = `../slide/img/img-hover_${slideIndex}.png`;
+        imgLeft.src = location.href.indexOf("https")
+          ? `../slide/img/img-hover_${slideIndex}.png`
+          : `'${location.href}/img/img-hover_${slideIndex}.png`;
       } else {
         imgRight.style.display = "block";
-        imgRight.src = `../slide/img/img-hover_${slideIndex}.png`;
+        imgRight.src = location.href.indexOf("https")
+          ? `../slide/img/img-hover_${slideIndex}.png`
+          : `'${location.href}/img/img-hover_${slideIndex}.png`;
       }
       imgLeft.style.top = `${slideIndex * 90}px`;
       imgRight.style.top = `${slideIndex * 90}px`;
