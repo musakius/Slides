@@ -51,7 +51,7 @@ function offsetSlides() {
 
     let host = location.href.replace(/\Course_work_2.*/, "");
     console.log(location.href);
-    console.log();
+    console.log("img/slide_${+current.textContent}.png");
     /* host = host + "Course_work_2/search.html"; */
 
     /* if (location.href !== host) {
@@ -62,7 +62,7 @@ function offsetSlides() {
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage = location.href.indexOf("https")
       ? `url('../slide/img/slide_${+current.textContent}.png')`
-      : `url('/img/slide_${+current.textContent}.png')`;
+      : `url('img/slide_${+current.textContent}.png')`;
   });
 
   prev.addEventListener("click", () => {
