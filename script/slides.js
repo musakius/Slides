@@ -62,7 +62,7 @@ function offsetSlides() {
     indicators.style.width = `${current.textContent * 20}%`;
     document.body.style.backgroundImage = location.href.indexOf("https")
       ? `url('../slide/img/slide_${+current.textContent}.png')`
-      : `url('img/slide_${+current.textContent}.png')`;
+      : `url('https://musakius.github.io/Slides/img/slide_${+current.textContent}.png')`;
   });
 
   prev.addEventListener("click", () => {
