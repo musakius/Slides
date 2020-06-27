@@ -1,1 +1,1 @@
-View project in browser: https://musakius.github.io/Slides/
+Open project in browser: https://musakius.github.io/Slides/
