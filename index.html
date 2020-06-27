@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/slider.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Zilla+Slab&display=swap"
+        rel="stylesheet">
+    <title>Slides</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="center">
+            <div class="block-logo">
+                <a href="#">AR.CHI</a>
+                <i></i>
+                <div class="block-btn-local">
+                    <span class="ru-btn">RUS</span>
+                    <span class="en-btn active">ENG</span>
+                </div>
+            </div>
+            <div class="header-panel">
+                <div class="block-link">
+                    <ul class="nav-bar en">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Architecture</a></li>
+                        <li><a href="#">Interior</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                    <ul class="nav-bar ru">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Архитектура</a></li>
+                        <li><a href="#">Интерьер</a></li>
+                        <li><a href="#">Контакт</a></li>
+                        <li><a href="#">Магазин</a></li>
+                    </ul>
+                </div>
+                <div class="block-search">
+                    <div class="flex">
+                        <i class="fas fa-search" id="loupe"></i>
+                        <div class="block-input">
+                            <input class="en" type="text" placeholder="What are you looking for?" />
+                            <input class="ru" type="text" placeholder="Что вы ищете?" />
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="border"></div>
+                </div>
+                <span class="close">Close</span>
+                <div class="burger">
+                    <span></span>
+                </div>
+            </div>
+    </div>
+
+    </header>
+    <section class="container">
+        <div class="center">
+            <div class="slider-wrapper">
+                <div class="block-slide"></div>
+            </div>
+    </section>
+    <section class="menu">
+        <img class="img-left">
+        <ul class="menu-bar en">
+            <li><a href="#">about us</a></li>
+            <li><a href="#">interior</a></li>
+            <li><a href="#">architecture</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        <ul class="menu-bar ru">
+            <li><a href="#">о нас</a></li>
+            <li><a href="#">интерьер</a></li>
+            <li><a href="#">архитектура</a></li>
+            <li><a href="#">портфолио</a></li>
+            <li><a href="#">контакт</a></li>
+        </ul>
+        <img class="img-right">
+    </section>
+    <footer>
+        <div class="center">
+            <div class="footer-panel">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Vkontakte</a></li>
+                    <li><a href="#">Behance</a></li>
+                </ul>
+                <div class="block-control-slider">
+                    <div class="flex">
+                        <i class="fas fa-chevron-left" id="prev"></i>
+                        <span class="current-slide">01</span>
+                        <div class="block-progress">
+                            <span class="progress-indicator"></span>
+                            <span class="current-progress"></span>
+                        </div>
+                        <span class="total-slides">03</span>
+                        <i class="fas fa-chevron-right" id="next"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="./script/slides.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

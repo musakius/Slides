@@ -1,0 +1,76 @@
+footer {
+  padding-bottom: 60px;
+  height: 9px;
+}
+
+footer div {
+  display: flex;
+}
+
+footer div ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+footer div ul li {
+  align-self: center;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+footer div ul li a {
+  font-family: FuturaDemiC;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333;
+}
+
+footer div .block-control-slider {
+  margin-left: 135px;
+}
+
+footer div .block-control-slider i {
+  align-self: center;
+  font-size: 12px;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+footer div .block-control-slider i:hover {
+  font-size: 18px;
+  padding: 0 4px;
+}
+
+footer div .block-control-slider .current-slide,
+footer div .block-control-slider .total-slides {
+  padding: 0 13px;
+  font-family: Zilla Slab;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #222222;
+}
+
+footer div .block-control-slider .block-progress {
+  min-width: 180px;
+}
+
+footer div .block-control-slider .block-progress .progress-indicator {
+  align-self: center;
+  width: 180px;
+  border-bottom: 1px solid rgba(66, 90, 32, 0.38);
+  height: 0px;
+}
+
+footer div .block-control-slider .block-progress .current-progress {
+  align-self: center;
+  width: 20%;
+  border-bottom: 1px solid #425a20;
+  height: 0px;
+  margin-left: -180px;
+  transition: 0.3s;
+}

@@ -1,0 +1,235 @@
+header {
+  height: 19px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+header .block-logo {
+  min-width: 258px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+header div a {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #444444;
+}
+
+header .block-logo i {
+  align-self: center;
+  width: 0px;
+  height: 19px;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+}
+header .block-logo .block-btn-local {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+
+header .block-logo .block-btn-local .ru-btn,
+header .block-logo .block-btn-local .en-btn {
+  padding: 6px;
+  font-family: FuturaDemiC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 5px;
+  color: #33333380;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+header .block-logo .block-btn-local .en-btn {
+  color: black;
+}
+
+.active {
+  background: #4a642417;
+}
+
+header .header-panel {
+  display: flex;
+}
+
+header .header-panel ul {
+  display: flex;
+}
+
+header .header-panel ul li {
+  align-self: center;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+header .header-panel .block-link {
+  transition-duration: 0.5s;
+}
+
+header .header-panel ul li a {
+  font-family: FuturaDemiC;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444444;
+}
+
+header .header-panel ul li a:hover {
+  color: #407939;
+}
+
+header .header-panel .block-search {
+  margin: 0 40px;
+  padding: 0 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+  border-right: 1px solid rgba(0, 0, 0, 0.212);
+  transition-duration: 0.5s;
+}
+
+header .header-panel .block-search .block-input {
+  display: none;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+header .header-panel .block-search-open {
+  width: 584px;
+  margin: 0 40px;
+  padding: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.212);
+  border-right: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+header .header-panel .block-search .block-input input {
+  width: 506px;
+  font-family: FuturaBookC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #444444;
+  background: transparent;
+  border: none;
+  opacity: 0.5;
+}
+
+header .header-panel .block-search .block-input input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+header .header-panel .block-search .border {
+  display: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
+  width: 100%;
+  margin-top: 15px;
+}
+
+header .header-panel .block-search .block-input i {
+  padding: 0;
+}
+
+header .header-panel .block-search i {
+  font-size: 19px;
+  color: #444444;
+  cursor: pointer;
+}
+
+header .header-panel .block-search i:hover {
+  color: #407939;
+}
+
+header .header-panel .burger {
+  display: inline-block;
+  position: relative;
+  right: 0;
+  width: 26px;
+  height: 19px;
+  cursor: pointer;
+}
+
+header .header-panel .burger span {
+  position: absolute;
+  width: 17.62px;
+  right: 0px;
+  height: 2px;
+  top: 16px;
+  background-color: #444444;
+  transition-duration: 0.8s;
+}
+header .header-panel .burger:before,
+header .header-panel .burger:after {
+  position: absolute;
+  width: 26px;
+  height: 2px;
+  content: "";
+  background-color: #444444;
+  transition-duration: 0.8s;
+}
+header .header-panel .burger:before {
+  top: 3px;
+}
+header .header-panel .burger:after {
+  bottom: 7px;
+}
+header .header-panel .burger.open:before {
+  transform: rotate(45deg);
+  top: 8.5px;
+  transition-duration: 0.8s;
+}
+header .header-panel .burger.open:after {
+  transform: rotate(-45deg);
+  bottom: 8px;
+  transition-duration: 0.8s;
+}
+header .header-panel .burger.open > span {
+  width: 0px;
+  transform: scale(0);
+  transition-duration: 0.8s;
+}
+header .header-panel .close {
+  display: none;
+  margin-right: 14px;
+  font-family: FuturaDemiC;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  animation: show 1s 1;
+  animation-fill-mode: forwards;
+  animation-delay: 10;
+  cursor: pointer;
+}
+
+.toolbar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 16px;
+  top: -320px;
+  background: #233e36cf;
+  z-index: 3;
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.toolbar.open {
+  top: 55px;
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.toolbar li {
+  padding: 10px;
+  border: 1px solid #ffffffc7;
+  border-radius: 4px;
+  display: block;
+}

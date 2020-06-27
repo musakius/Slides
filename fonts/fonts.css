@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "FuturaDemiC";
+  font-style: normal;
+  font-weight: normal;
+  src: local("FuturaDemiC"), url("./FuturaDemiC.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FuturaBookC";
+  font-style: normal;
+  font-weight: normal;
+  src: local("FuturaBookC"), url("./futurabookc.woff") format("woff");
+}
