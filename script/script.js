@@ -34,7 +34,7 @@ function openCloseBurger() {
     }
   }
 }
-console.log("object");
+
 ///////////////////////////////////////////////////////////
 
 function openCloseSearch() {
