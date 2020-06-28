@@ -21,9 +21,7 @@ function openCloseBurger() {
     blockControlSlider.style.display = "none";
     container.style.display = "none";
     menu.style.display = "flex";
-    document.body.style.backgroundImage = location.href.indexOf("https")
-      ? `url('../slide/img/menu.png')`
-      : `url('${location.href}/img/menu.png')`;
+    document.body.style.backgroundImage = `url('img/menu.png')`;
 
     if (!burger.classList.contains("open")) {
       closeBurger.style.display = "none";
@@ -32,13 +30,11 @@ function openCloseBurger() {
       blockControlSlider.style.display = "block";
       container.style.display = "block";
       menu.style.display = "none";
-      document.body.style.backgroundImage = location.href.indexOf("https")
-        ? `url('../slide/img/slide_1.png')`
-        : `url('${location.href}/img/slide_1.png')`;
+      document.body.style.backgroundImage = `url('img/slide_1.png')`;
     }
   }
 }
-
+console.log("object");
 ///////////////////////////////////////////////////////////
 
 function openCloseSearch() {
@@ -79,14 +75,10 @@ function renderImgInMenu() {
       el.style.color = "#407939";
       if (i % 2 === 0) {
         imgLeft.style.display = "block";
-        imgLeft.src = location.href.indexOf("https")
-          ? `../slide/img/img-hover_${slideIndex}.png`
-          : `${location.href}/img/img-hover_${slideIndex}.png`;
+        imgLeft.src = `img/img-hover_${slideIndex}.png`;
       } else {
         imgRight.style.display = "block";
-        imgRight.src = location.href.indexOf("https")
-          ? `../slide/img/img-hover_${slideIndex}.png`
-          : `${location.href}/img/img-hover_${slideIndex}.png`;
+        imgRight.src = `img/img-hover_${slideIndex}.png`;
       }
       imgLeft.style.top = `${slideIndex * 90}px`;
       imgRight.style.top = `${slideIndex * 90}px`;
