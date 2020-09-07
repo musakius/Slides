@@ -20,11 +20,7 @@ a team leader in 5 years.
 - [**"Sushi"** - made using HTML/CSS](https://github.com/musakius/Sushi_delivery_store)
 ## Experience
 - Probation(Vue) - 1,5 months.
-- Courses(HTML/CSS, JS) - 6 months.
-## Education
-- Courses: 
-**ORMEDIA** - JS, React, HTML/CSS.
-**Udemy** - JS, React.
+- Courses(HTML/CSS, JS, React) - 6 months.
 ## English 
 - Pre-Intermediate
 
