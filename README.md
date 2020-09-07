@@ -22,6 +22,7 @@ a team leader in 5 years.
 - Probation(Vue) - 1,5 months.
 - Courses(HTML/CSS, JS) - 6 months.
 ## Education
+- Courses:
 ```
 ORMEDIA - JS, React, HTML/CSS.
 Udemy - JS, React.
