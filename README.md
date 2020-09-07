@@ -19,5 +19,10 @@ a team leader in 5 years.
 - [**"Online store"** - made using JavaScript](https://github.com/musakius/online-store_JavaScript)
 - [**"Sushi"** - made using HTML/CSS](https://github.com/musakius/Sushi_delivery_store)
 ## Experience
-- internship(Vue) - 1,5 months
-- courses(HTML/CSS, JS) - 6 months
+- Probation(Vue) - 1,5 months.
+- Courses(HTML/CSS, JS) - 6 months.
+## Education
+- Courses
+ - **ORMEDIA** - JS, React, HTML/CSS.
+ - **Udemy** - JS, React.
+
