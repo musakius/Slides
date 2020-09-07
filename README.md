@@ -22,6 +22,6 @@ a team leader in 5 years.
 - Probation(Vue) - 1,5 months.
 - Courses(HTML/CSS, JS, React) - 6 months.
 ## English 
-- Pre-Intermediate
+> Pre-Intermediate
 
 
