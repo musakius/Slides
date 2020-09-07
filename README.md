@@ -9,4 +9,12 @@ Open project in browser: https://musakius.github.io/Slides/
 - I want to start my career as a
 Front-end developer and become
 a team leader in 5 years.
+## Skills
+- JavaScript
+- React
+- HTML / CSS
+## Code examples
+‒ [**"News portal"** - made using React](https://github.com/ElvisKrop/media-react)
+‒ [**"Online store"** - made using JavaScript](https://github.com/musakius/online-store_JavaScript)
+‒ [**"Sushi"** - made using HTML/CSS](https://github.com/musakius/Sushi_delivery_store)
 
