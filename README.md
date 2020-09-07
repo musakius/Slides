@@ -2,5 +2,5 @@ Open project in browser: https://musakius.github.io/Slides/
 
 
 # Petr Mikhailau
-**DESIRED POSITION:** Front-end developer
+**Desired position: ** Front-end developer
 ## Contact 
