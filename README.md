@@ -15,7 +15,9 @@ a team leader in 5 years.
 - HTML / CSS
 ## Code examples
 - [**"News portal"** - made using React](https://github.com/ElvisKrop/media-react)
-- [**"Converter"**](https://github.com/musakius/Converter_Vue_API) - made using Vue
+- [**"Converter"** - made using Vue](https://github.com/musakius/Converter_Vue_API)
 - [**"Online store"** - made using JavaScript](https://github.com/musakius/online-store_JavaScript)
 - [**"Sushi"** - made using HTML/CSS](https://github.com/musakius/Sushi_delivery_store)
-
+## Experience
+- internship(Vue) - 1,5 months
+- courses(HTML/CSS, JS) - 6 months
